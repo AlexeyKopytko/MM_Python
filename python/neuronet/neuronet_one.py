@@ -50,6 +50,8 @@ for x in range(len(x_train)):
 x_train_adv = np.delete(x_train_adv, 0, 0)
 x_train_adv = np.delete(x_train_adv, 0, 0)
 
+
+
 x_test_adv = np.empty([2, 960])
 
 for x in range(len(x_test)):
